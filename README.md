@@ -84,6 +84,7 @@ demostrated group testing using, e.g. `test.describe('Bank Manager Flows', () =>
 - Implemented test tagging for different test suites
 - Added test result reporting (Allure, HTML reports)
 - check `../.github/workflows/playwright.yml`
+- check recent actions and artefact: https://github.com/mac3859/corto-tech-test-tasks/actions/workflows/playwright.yml
 
 ### 6. Code Quality
 Add ESLint with Playwright recommended rules
