@@ -114,6 +114,7 @@ xyz-bank-test-framework/
 │   │   └── bankManagerHelpers.js # Helper functions for bank manager operations
 │   ├── pages/
 │   │   ├── AccountPage.js      # Page object for account management
+│   │   ├── BasePage.js         # Page object for common page interactions
 │   │   ├── CustomerPage.js     # Page object for customer interactions
 │   │   ├── HomePage.js         # Page object for home page elements
 │   │   └── ManagerPage.js      # Page object for manager-specific functions
