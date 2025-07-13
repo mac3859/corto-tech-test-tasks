@@ -8,7 +8,6 @@ on:
 
 env:
   PLAYWRIGHT_BROWSERS_PATH: ~/ms-playwright
-  TEST_TAG: ${{ github.event_name == 'pull_request' && 'pr' || 'push' }}
 
 jobs:
   test:
@@ -43,7 +42,7 @@ jobs:
       run: npm install -g allure-commandline
 
     - name: Run Playwright tests
-      run: npx playwright test --shard=${{ matrix.shard }}/3 --retries=2 --grep=${{ env.TEST_TAG }}
+      run: npx playwright test --shard=${{ matrix.shard }}/3 --retries=2
     
     - name: Generate Allure Report
       if: always()
