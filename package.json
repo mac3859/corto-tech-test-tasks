@@ -1,0 +1,24 @@
+{
+  "name": "xyz-bank-test-framework",
+  "version": "1.0.0",
+  "main": "playwright.config.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "show-report": "playwright show-report",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.12",
+    "allure-playwright": "^2.15.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-playwright": "^0.15.3"
+  }
+}
