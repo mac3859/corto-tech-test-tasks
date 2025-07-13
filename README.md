@@ -29,6 +29,9 @@ the project was completed in timed environment - completed within 5 hours
 
 
 ## Test cases:
+
+Test scripts shortcut: https://github.com/mac3859/corto-tech-test-tasks/tree/main/src
+
           
 Here's a list of test cases from the test files in `src/tests/`:
 
