@@ -1,4 +1,11 @@
+This is the Quality Engineering Technical Test for Corto
 
+Please start from the following:
+
+# Task 1:
+https://github.com/mac3859/corto-tech-test-tasks/tree/main/Task-1
+
+# Task 2:
 
 # XYZ Bank Test Framework
 
